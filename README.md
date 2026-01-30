@@ -55,8 +55,8 @@ I care more about **how a system works internally** than how flashy it looks.
   <summary>📊 <b>GitHub Stats</b></summary>
   <br />
 
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=pauzzz-nf&show_icons=true&theme=radical" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pauzzz-nf&layout=compact&theme=radical" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&theme=radical" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&theme=radical" />
 </details>
 
 <details>
