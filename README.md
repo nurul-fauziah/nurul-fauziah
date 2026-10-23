@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Nurul+Fauziah;Full+Stack+Developer;Building+Practical+Digital+Solutions;Turning+Ideas+into+Working+Products;Learning+by+Building" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Josefin+Sans&weight=600&size=22&pause=1200&color=C8553D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Nurul+Fauziah;Full+Stack+Developer;Building+Practical+Digital+Solutions;Turning+Ideas+into+Working+Products;Learning+by+Building" alt="typing" />
 </h3>
 
 <p align="center">
@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-457B9D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-457B9D?style=for-the-badge&labelColor=1D3557" alt="Open to opportunities" />
-  <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Views&color=1D3557&style=for-the-badge" alt="views" />
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-2A6F6B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-5C4033?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-C8553D?style=for-the-badge&labelColor=5C4033" alt="Open to opportunities" />
+  <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Views&color=2A6F6B&style=for-the-badge" alt="views" />
 </p>
 
 <p align="center">
@@ -114,12 +114,12 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 ## <img src="assets/icons/chart.svg" width="26" height="26" align="absmiddle" alt="" /> GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&theme=transparent&title_color=457B9D&icon_color=457B9D&text_color=8b949e&border_color=30363d&v=2" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&theme=transparent&title_color=457B9D&text_color=8b949e&border_color=30363d&v=2" alt="top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&bg_color=F4EBD9&title_color=C8553D&icon_color=2A6F6B&text_color=5C4033&border_color=D9C9A8&border_radius=12&v=2" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&bg_color=F4EBD9&title_color=C8553D&text_color=5C4033&border_color=D9C9A8&border_radius=12&v=2" alt="top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&theme=transparent&ring=457B9D&fire=457B9D&currStreakLabel=457B9D&sideLabels=8b949e&currStreakNum=8b949e&sideNums=8b949e&dates=8b949e&border=30363d" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&background=F4EBD9&ring=C8553D&fire=E1A730&currStreakLabel=C8553D&sideLabels=5C4033&currStreakNum=5C4033&sideNums=5C4033&dates=7A6652&stroke=D9C9A8&border=D9C9A8&border_radius=12" alt="streak" />
 </p>
 
 <!-- Snake: butuh workflow .github/workflows/snake.yml -->
@@ -140,13 +140,13 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 I'm always open to discussing projects, collaboration, or opportunities to learn and grow as a developer.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-C8553D?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1500&color=457B9D&center=true&vCenter=true&width=500&lines=Build.;Learn.;Improve.;Repeat." alt="Build. Learn. Improve. Repeat." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Josefin+Sans&weight=600&size=18&pause=1500&color=C8553D&center=true&vCenter=true&width=500&lines=Build.;Learn.;Improve.;Repeat." alt="Build. Learn. Improve. Repeat." />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=110&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E1A730,50:C8553D,100:2A6F6B&height=110&section=footer" alt="footer" />
 </p>
