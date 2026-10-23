@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Nurul+Fauziah+%F0%9F%91%8B;Full+Stack+Developer;Building+Practical+Digital+Solutions;Turning+Ideas+into+Working+Products;Learning+by+Building" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Nurul+Fauziah;Full+Stack+Developer;Building+Practical+Digital+Solutions;Turning+Ideas+into+Working+Products;Learning+by+Building" alt="typing" />
 </h3>
 
 <p align="center">
@@ -18,12 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="#-about">About</a> &nbsp;·&nbsp;
-  <a href="#-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#-featured-projects">Projects</a> &nbsp;·&nbsp;
-  <a href="#-how-i-build">Approach</a> &nbsp;·&nbsp;
-  <a href="#-github-activity">Activity</a> &nbsp;·&nbsp;
-  <a href="#-lets-connect">Contact</a>
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#how-i-build">Approach</a> &nbsp;·&nbsp;
+  <a href="#github-activity">Activity</a> &nbsp;·&nbsp;
+  <a href="#lets-connect">Contact</a>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
@@ -32,7 +31,9 @@
   <img src="assets/terminal.svg" alt="terminal intro" width="720" />
 </p>
 
-## 👋 About
+<a id="about"></a>
+
+## <img src="assets/icons/user.svg" width="26" height="26" align="absmiddle" alt="" /> About
 
 I'm a **Full Stack Developer** who enjoys building applications from both sides of the screen: from designing how users interact with a system to figuring out how everything works behind it.
 
@@ -41,15 +42,15 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🎨 Frontend</h4>
+      <h4><img src="assets/icons/monitor.svg" width="20" height="20" align="absmiddle" alt="" /> Frontend</h4>
       Responsive, accessible interfaces with React and Next.js, built around real user flows.
     </td>
     <td width="33%" valign="top">
-      <h4>⚙️ Backend</h4>
+      <h4><img src="assets/icons/server.svg" width="20" height="20" align="absmiddle" alt="" /> Backend</h4>
       Clean APIs and business logic with Laravel and NestJS, structured to scale with requirements.
     </td>
     <td width="33%" valign="top">
-      <h4>🧱 Data & Delivery</h4>
+      <h4><img src="assets/icons/database.svg" width="20" height="20" align="absmiddle" alt="" /> Data & Delivery</h4>
       Relational data modeling with MySQL and PostgreSQL, shipped with Docker and Git-based workflows.
     </td>
   </tr>
@@ -62,7 +63,9 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## 🛠 Tech Stack
+<a id="tech-stack"></a>
+
+## <img src="assets/icons/wrench.svg" width="26" height="26" align="absmiddle" alt="" /> Tech Stack
 
 <p align="center">
   <img src="assets/marquee.svg" alt="Tech stack" width="100%" />
@@ -77,25 +80,9 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## 🚀 Featured Projects
+<a id="how-i-build"></a>
 
-<!-- Ganti repo=... dengan nama repo public kamu yang sebenarnya -->
-<p align="center">
-  <a href="https://github.com/nurul-fauziah/snipp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=snipp&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Snipp" />
-  </a>
-  <a href="https://github.com/nurul-fauziah/mid-century-portfolio-design">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=REPO_NAME_2&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Project 2" />
-  </a>
-</p>
-
-<p align="center">
-  <sub><b>Snipp</b>: URL shortener with an analytics dashboard. Next.js frontend, NestJS backend, separated architecture.</sub>
-</p>
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
-## 🧩 How I Build
+## <img src="assets/icons/layers.svg" width="26" height="26" align="absmiddle" alt="" /> How I Build
 
 | Step | Focus |
 | :--: | :-- |
@@ -105,22 +92,26 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 | **04** | **Keep it maintainable** as requirements evolve |
 | **05** | **Build with purpose**, not complexity for its own sake |
 
-## 🌱 Currently
+<a id="currently"></a>
+
+## <img src="assets/icons/sprout.svg" width="26" height="26" align="absmiddle" alt="" /> Currently
 
 <table>
   <tr>
-    <td>🔨 <b>Building</b><br /><sub>Real-world web apps with Next.js, NestJS, and Laravel</sub></td>
-    <td>🏗 <b>Exploring</b><br /><sub>System design and maintainable architecture</sub></td>
+    <td><img src="assets/icons/code.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Building</b><br /><sub>Real-world web apps with Next.js, NestJS, and Laravel</sub></td>
+    <td><img src="assets/icons/compass.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Exploring</b><br /><sub>System design and maintainable architecture</sub></td>
   </tr>
   <tr>
-    <td>🤖 <b>Experimenting</b><br /><sub>Data, AI, and automation</sub></td>
-    <td>🇯🇵 <b>Learning</b><br /><sub>Japanese, little by little</sub></td>
+    <td><img src="assets/icons/flask.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Experimenting</b><br /><sub>Data, AI, and automation</sub></td>
+    <td><img src="assets/icons/book.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Learning</b><br /><sub>Japanese, little by little</sub></td>
   </tr>
 </table>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## 📊 GitHub Activity
+<a id="github-activity"></a>
+
+## <img src="assets/icons/chart.svg" width="26" height="26" align="absmiddle" alt="" /> GitHub Activity
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&theme=transparent&title_color=457B9D&icon_color=457B9D&text_color=8b949e&border_color=30363d&v=2" alt="stats" />
@@ -146,7 +137,9 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## 🤝 Let's Connect
+<a id="lets-connect"></a>
+
+## <img src="assets/icons/mail.svg" width="26" height="26" align="absmiddle" alt="" /> Let's Connect
 
 I'm always open to discussing projects, collaboration, or opportunities to learn and grow as a developer.
 
