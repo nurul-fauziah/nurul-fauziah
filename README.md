@@ -1,10 +1,9 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=230&section=header&text=Nurul%20Fauziah&fontSize=54&fontColor=F1FAEE&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Informatics%20Engineering&descSize=18&descColor=A8DADC&descAlignY=58" alt="Nurul Fauziah" />
+  <img src="assets/banner.svg" alt="Nurul Fauziah - Full Stack Developer" width="100%" />
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Nurul+Fauziah;Full+Stack+Developer;Building+Practical+Digital+Solutions;Learning+by+Building" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Nurul+Fauziah+%F0%9F%91%8B;Full+Stack+Developer;Building+Practical+Digital+Solutions;Turning+Ideas+into+Working+Products;Learning+by+Building" alt="typing" />
 </h3>
 
 <p align="center">
@@ -14,7 +13,8 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-457B9D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-A8DADC?style=for-the-badge&labelColor=A8DADC&color=A8DADC&logoColor=1D3557" alt="Open to opportunities" />
+  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-A8DADC?style=for-the-badge&labelColor=A8DADC&color=A8DADC" alt="Open to opportunities" />
+  <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Views&color=1D3557&style=for-the-badge" alt="views" />
 </p>
 
 <p align="center">
@@ -26,7 +26,11 @@
   <a href="#-lets-connect">Contact</a>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+<p align="center">
+  <img src="assets/terminal.svg" alt="terminal intro" width="720" />
+</p>
 
 ## 👋 About
 
@@ -56,14 +60,12 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   <sub><i>Even little by little, keep moving forward.</i></sub>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nextjs,html,css,php,laravel,nodejs,nestjs,python&theme=dark" alt="languages and frameworks" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,docker,git,github,vscode,jira&theme=dark" alt="databases and tools" />
+  <img src="assets/marquee.svg" alt="Tech stack" width="100%" />
 </p>
 
 | Area | Technologies |
@@ -73,11 +75,11 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 | **Database** | MySQL, PostgreSQL |
 | **Tools & Workflow** | Git, GitHub, Docker, VS Code, Jira |
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🚀 Featured Projects
 
-<!-- Ganti repo=... dengan nama repo kamu yang sebenarnya -->
+<!-- Ganti repo=... dengan nama repo public kamu yang sebenarnya -->
 <p align="center">
   <a href="https://github.com/nurul-fauziah/snipp">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=snipp&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Snipp" />
@@ -91,7 +93,7 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   <sub><b>Snipp</b>: URL shortener with an analytics dashboard. Next.js frontend, NestJS backend, separated architecture.</sub>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🧩 How I Build
 
@@ -103,16 +105,20 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 | **04** | **Keep it maintainable** as requirements evolve |
 | **05** | **Build with purpose**, not complexity for its own sake |
 
----
-
 ## 🌱 Currently
 
-- 🔨 Building real-world web applications with Next.js, NestJS, and Laravel
-- 🏗 Exploring system design and maintainable architecture
-- 🤖 Experimenting with data, AI, and automation
-- 🇯🇵 Learning Japanese, little by little
+<table>
+  <tr>
+    <td>🔨 <b>Building</b><br /><sub>Real-world web apps with Next.js, NestJS, and Laravel</sub></td>
+    <td>🏗 <b>Exploring</b><br /><sub>System design and maintainable architecture</sub></td>
+  </tr>
+  <tr>
+    <td>🤖 <b>Experimenting</b><br /><sub>Data, AI, and automation</sub></td>
+    <td>🇯🇵 <b>Learning</b><br /><sub>Japanese, little by little</sub></td>
+  </tr>
+</table>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 📊 GitHub Activity
 
@@ -129,7 +135,7 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nurul-fauziah&bg_color=transparent&color=8b949e&line=457B9D&point=A8DADC&area=true&area_color=457B9D&hide_border=true" alt="activity graph" />
 </p>
 
-<!-- Snake: butuh workflow .github/workflows/snake.yml (sudah disediakan) -->
+<!-- Snake: butuh workflow .github/workflows/snake.yml -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake-dark.svg" />
@@ -138,7 +144,7 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   </picture>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🤝 Let's Connect
 
@@ -149,9 +155,9 @@ I'm always open to discussing projects, collaboration, or opportunities to learn
 </p>
 
 <p align="center">
-  <sub><b>Build. Learn. Improve. Repeat.</b></sub>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1500&color=457B9D&center=true&vCenter=true&width=500&lines=Build.;Learn.;Improve.;Repeat." alt="Build. Learn. Improve. Repeat." />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=100&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=110&section=footer" alt="footer" />
 </p>
