@@ -84,7 +84,7 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   <a href="https://github.com/nurul-fauziah/snipp">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=snipp&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Snipp" />
   </a>
-  <a href="https://github.com/nurul-fauziah/REPO_NAME_2">
+  <a href="https://github.com/nurul-fauziah/mid-century-portfolio-design">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=REPO_NAME_2&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Project 2" />
   </a>
 </p>
