@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-457B9D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-A8DADC?style=for-the-badge&labelColor=A8DADC&color=A8DADC" alt="Open to opportunities" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-457B9D?style=for-the-badge&labelColor=1D3557" alt="Open to opportunities" />
   <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Views&color=1D3557&style=for-the-badge" alt="views" />
 </p>
 
@@ -120,10 +120,6 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&theme=transparent&ring=457B9D&fire=457B9D&currStreakLabel=457B9D&sideLabels=8b949e&currStreakNum=8b949e&sideNums=8b949e&dates=8b949e&border=30363d" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nurul-fauziah&bg_color=transparent&color=8b949e&line=457B9D&point=A8DADC&area=true&area_color=457B9D&hide_border=true" alt="activity graph" />
 </p>
 
 <!-- Snake: butuh workflow .github/workflows/snake.yml -->
