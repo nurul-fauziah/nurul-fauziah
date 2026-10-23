@@ -1,10 +1,10 @@
 <!-- ═══════════════ HEADER ═══════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=220&section=header&text=Nurul%20Fauziah&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=230&section=header&text=Nurul%20Fauziah&fontSize=54&fontColor=F1FAEE&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Informatics%20Engineering&descSize=18&descColor=A8DADC&descAlignY=58" alt="Nurul Fauziah" />
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Nurul+Fauziah+%F0%9F%91%8B;Full+Stack+Developer;Building+Practical+Digital+Solutions;Learning+by+Building" alt="typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=457B9D&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Nurul+Fauziah;Full+Stack+Developer;Building+Practical+Digital+Solutions;Learning+by+Building" alt="typing" />
 </h3>
 
 <p align="center">
@@ -12,26 +12,44 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Profile%20views&color=457B9D&style=flat-square" alt="views" />
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-457B9D?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-1D3557?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-A8DADC?style=flat-square" alt="status" />
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/nurul-fauziah"><img src="https://img.shields.io/badge/GitHub-457B9D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-A8DADC?style=for-the-badge&labelColor=A8DADC&color=A8DADC&logoColor=1D3557" alt="Open to opportunities" />
+</p>
+
+<p align="center">
+  <a href="#-about">About</a> &nbsp;·&nbsp;
+  <a href="#-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#-featured-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#-how-i-build">Approach</a> &nbsp;·&nbsp;
+  <a href="#-github-activity">Activity</a> &nbsp;·&nbsp;
+  <a href="#-lets-connect">Contact</a>
 </p>
 
 ---
 
-## 👋 About Me
+## 👋 About
 
-I'm a **Full Stack Developer** who enjoys building applications from both sides of the screen — from designing how users interact with a system to figuring out how everything works behind it.
+I'm a **Full Stack Developer** who enjoys building applications from both sides of the screen: from designing how users interact with a system to figuring out how everything works behind it.
 
 I like understanding the problem behind a feature, breaking it into clear workflows, and turning it into something **practical, maintainable, and actually useful**.
 
-> Good development isn't only about making something work. It's about asking:
-
-- 🎯 What problem are we actually solving?
-- 🔄 How should this flow work for the people using it?
-- 🧱 How can the system stay simple as it grows?
-- ⚙️ What happens behind the scenes when things change?
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🎨 Frontend</h4>
+      Responsive, accessible interfaces with React and Next.js, built around real user flows.
+    </td>
+    <td width="33%" valign="top">
+      <h4>⚙️ Backend</h4>
+      Clean APIs and business logic with Laravel and NestJS, structured to scale with requirements.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧱 Data & Delivery</h4>
+      Relational data modeling with MySQL and PostgreSQL, shipped with Docker and Git-based workflows.
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <b>少しずつでも、前に進む。</b><br />
@@ -40,7 +58,7 @@ I like understanding the problem behind a feature, breaking it into clear workfl
 
 ---
 
-## 🛠 Tech I Work With
+## 🛠 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,react,nextjs,html,css,php,laravel,nodejs,nestjs,python&theme=dark" alt="languages and frameworks" />
@@ -48,53 +66,92 @@ I like understanding the problem behind a feature, breaking it into clear workfl
   <img src="https://skillicons.dev/icons?i=mysql,postgres,docker,git,github,vscode,jira&theme=dark" alt="databases and tools" />
 </p>
 
-| Area | Stack |
+| Area | Technologies |
 | :-- | :-- |
-| 🎨 **Frontend** | JavaScript, React, Next.js, HTML, CSS |
-| ⚙️ **Backend** | PHP, Laravel, Node.js, NestJS, Python |
-| 🗄 **Database** | MySQL, PostgreSQL |
-| 🧰 **Tools & Workflow** | Git, GitHub, Docker, VS Code, Jira |
+| **Frontend** | JavaScript, React, Next.js, HTML, CSS |
+| **Backend** | PHP, Laravel, Node.js, NestJS, Python |
+| **Database** | MySQL, PostgreSQL |
+| **Tools & Workflow** | Git, GitHub, Docker, VS Code, Jira |
 
-<sub>Always learning, experimenting, and adding new tools when they help solve the problem better.</sub>
+---
+
+## 🚀 Featured Projects
+
+<!-- Ganti repo=... dengan nama repo kamu yang sebenarnya -->
+<p align="center">
+  <a href="https://github.com/nurul-fauziah/snipp">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=snipp&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Snipp" />
+  </a>
+  <a href="https://github.com/nurul-fauziah/REPO_NAME_2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurul-fauziah&repo=REPO_NAME_2&theme=transparent&title_color=457B9D&text_color=8b949e&icon_color=457B9D&border_color=30363d" alt="Project 2" />
+  </a>
+</p>
+
+<p align="center">
+  <sub><b>Snipp</b>: URL shortener with an analytics dashboard. Next.js frontend, NestJS backend, separated architecture.</sub>
+</p>
 
 ---
 
 ## 🧩 How I Build
 
-1. **Understand the problem** before jumping into implementation
-2. **Design clear workflows** that make sense for users
-3. **Connect the pieces** between interface, logic, and data
-4. **Keep things maintainable** as requirements evolve
-5. **Build with purpose**, not complexity for its own sake
+| Step | Focus |
+| :--: | :-- |
+| **01** | **Understand the problem** before jumping into implementation |
+| **02** | **Design clear workflows** that make sense for the people using them |
+| **03** | **Connect the pieces** between interface, logic, and data |
+| **04** | **Keep it maintainable** as requirements evolve |
+| **05** | **Build with purpose**, not complexity for its own sake |
 
 ---
 
 ## 🌱 Currently
 
-- 🔨 Building real-world web apps with Next.js, NestJS, and Laravel
-- 📚 Exploring system design and maintainable architecture
+- 🔨 Building real-world web applications with Next.js, NestJS, and Laravel
+- 🏗 Exploring system design and maintainable architecture
 - 🤖 Experimenting with data, AI, and automation
 - 🇯🇵 Learning Japanese, little by little
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&theme=transparent&title_color=457B9D&icon_color=457B9D&text_color=8b949e&hide_border=true&v=2" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&theme=transparent&title_color=457B9D&text_color=8b949e&hide_border=true&v=2" alt="top langs" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&theme=transparent&title_color=457B9D&icon_color=457B9D&text_color=8b949e&border_color=30363d&v=2" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&theme=transparent&title_color=457B9D&text_color=8b949e&border_color=30363d&v=2" alt="top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&theme=transparent&ring=457B9D&fire=457B9D&currStreakLabel=457B9D&sideLabels=8b949e&currStreakNum=8b949e&sideNums=8b949e&dates=8b949e&hide_border=true" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&theme=transparent&ring=457B9D&fire=457B9D&currStreakLabel=457B9D&sideLabels=8b949e&currStreakNum=8b949e&sideNums=8b949e&dates=8b949e&border=30363d" alt="streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nurul-fauziah&bg_color=transparent&color=8b949e&line=457B9D&point=A8DADC&area=true&area_color=457B9D&hide_border=true" alt="activity graph" />
+</p>
+
+<!-- Snake: butuh workflow .github/workflows/snake.yml (sudah disediakan) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake.svg" />
+  </picture>
 </p>
 
 ---
+
+## 🤝 Let's Connect
+
+I'm always open to discussing projects, collaboration, or opportunities to learn and grow as a developer.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-1D3557?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+</p>
 
 <p align="center">
   <sub><b>Build. Learn. Improve. Repeat.</b></sub>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,100:457B9D&height=100&section=footer" alt="footer" />
 </p>
