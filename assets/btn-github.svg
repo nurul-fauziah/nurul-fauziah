@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="42" viewBox="0 0 138 42" role="img" aria-label="GitHub">
+  <!-- Sketch shadow -->
+  <path d="M7,8 Q69,6 132,7 Q134,22 133,37 Q69,39 6,37 Z" fill="none" stroke="#139A53" stroke-width="2" opacity=".35" transform="translate(1.5, 1.5)"/>
+  <!-- Sketch card -->
+  <path d="M6,6 Q69,5 131,6 Q133,21 132,36 Q69,37 5,36 Q4,21 6,6 Z" fill="#EFEADC" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Contour line -->
+  <path d="M7.5,7.5 Q69,6.5 129.5,7.5 Q131,21 130.5,34.5 Q69,35.5 6.5,34.5" fill="none" stroke="#9A9585" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+  <!-- GitHub icon (hand-drawn style) -->
+  <g transform="translate(16, 11)" fill="none" stroke="#1B1B1B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10,1 C5,1 1,5 1,10 C1,14 3.6,17.4 7.2,18.6 C7.7,18.7 7.8,18.4 7.8,18.1 L7.8,16.4 C5.3,16.9 4.7,15.2 4.7,15.2 C4.3,14.2 3.7,13.9 3.7,13.9 C2.9,13.3 3.8,13.3 3.8,13.3 C4.7,13.4 5.2,14.3 5.2,14.3 C6,15.7 7.3,15.3 7.8,15.1 C7.9,14.5 8.1,14.1 8.4,13.8 C6.4,13.6 4.3,12.8 4.3,9.4 C4.3,8.4 4.7,7.6 5.3,7 C5.2,6.7 4.9,5.8 5.4,4.5 C5.4,4.5 6.2,4.2 8,5.4 C8.8,5.2 9.6,5.1 10.4,5.1 C11.2,5.1 12,5.2 12.8,5.4 C14.6,4.2 15.4,4.5 15.4,4.5 C15.9,5.8 15.6,6.7 15.5,7 C16.1,7.6 16.5,8.4 16.5,9.4 C16.5,12.8 14.4,13.6 12.4,13.8 C12.7,14.1 13,14.7 13,15.6 L13,18.1 C13,18.4 13.1,18.7 13.6,18.6 C17.2,17.4 19.8,14 19.8,10 C19.8,5 15.8,1 10.8,1 Z" fill="#1B1B1B"/>
+  </g>
+  <!-- Label -->
+  <text x="44" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" fill="#1B1B1B" letter-spacing="0.3">GitHub</text>
+  <!-- Arrow -->
+  <path d="M106,23 L113,16 M108,16 L113,16 L113,21" fill="none" stroke="#139A53" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

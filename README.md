@@ -1,146 +1,200 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Nurul Fauziah - Full Stack Developer" width="100%" />
+  <img src="assets/banner.svg" alt="Nurul Fauziah — Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="Hi, I'm Nurul Fauziah. Full Stack Developer." width="100%" />
+  <i>Informatics graduate &amp; Full Stack Developer focusing on practical business applications, backend logic, and clean web architecture.</i>
 </p>
 
 <p align="center">
-  <i>Turning ideas, workflows, and problems into useful digital experiences.</i>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn" /></a>
-  <a href="https://github.com/nurul-fauziah"><img src="assets/btn-github.svg" height="48" alt="GitHub" /></a>
-  <img src="assets/btn-status.svg" height="48" alt="Open to opportunities" />
-  <img src="https://komarev.com/ghpvc/?username=nurul-fauziah&label=Views&color=1B1B1B&style=flat-square" alt="views" />
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-linkedin.svg" height="38" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://github.com/nurul-fauziah"><img src="assets/btn-github.svg" height="38" alt="GitHub" /></a>
+  &nbsp;
+  <img src="assets/btn-status.svg" height="38" alt="Open to opportunities" />
 </p>
 
 <p align="center">
   <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#architecture">Architecture &amp; Focus</a> &nbsp;·&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#how-i-build">Approach</a> &nbsp;·&nbsp;
-  <a href="#github-activity">Activity</a> &nbsp;·&nbsp;
-  <a href="#lets-connect">Contact</a>
+  <a href="#selected-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#approach">Approach</a> &nbsp;·&nbsp;
+  <a href="#activity">Activity</a> &nbsp;·&nbsp;
+  <a href="#connect">Contact</a>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<p align="center">
-  <img src="assets/terminal.svg" alt="terminal intro" width="720" />
-</p>
-
 <a id="about"></a>
 
-## <img src="assets/icons/user.svg" width="26" height="26" align="absmiddle" alt="" /> About
+## <img src="assets/icons/user.svg" width="22" height="22" align="absmiddle" alt="" /> About
 
-I'm a **Full Stack Developer** who enjoys building applications from both sides of the screen: from designing how users interact with a system to figuring out how everything works behind it.
+I'm a **Full Stack Developer** with a background in **Informatics Engineering**. I build web applications with a focus on practical utility: turning complex operational requirements into clear workflows, reliable backend logic, and responsive user interfaces.
 
-I like understanding the problem behind a feature, breaking it into clear workflows, and turning it into something **practical, maintainable, and actually useful**.
+I care about how systems behave under the hood — data consistency, transaction integrity, and maintainable boundaries — just as much as how smoothly they operate on screen.
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4><img src="assets/icons/monitor.svg" width="20" height="20" align="absmiddle" alt="" /> Frontend</h4>
-      Responsive, accessible interfaces with React and Next.js, built around real user flows.
+      <h4><img src="assets/icons/monitor.svg" width="18" height="18" align="absmiddle" alt="" /> Frontend &amp; Interfaces</h4>
+      Responsive, accessible user interfaces built with <b>Next.js</b> and <b>React</b>. Structured around real human tasks, clear form states, and intuitive navigation flows.
     </td>
     <td width="33%" valign="top">
-      <h4><img src="assets/icons/server.svg" width="20" height="20" align="absmiddle" alt="" /> Backend</h4>
-      Clean APIs and business logic with Laravel and NestJS, structured to scale with requirements.
+      <h4><img src="assets/icons/server.svg" width="18" height="18" align="absmiddle" alt="" /> Backend &amp; Logic</h4>
+      Clean RESTful APIs, authentication guards, and business logic using <b>Laravel</b> and <b>NestJS</b>. Designed to enforce domain constraints and scale cleanly.
     </td>
     <td width="33%" valign="top">
-      <h4><img src="assets/icons/database.svg" width="20" height="20" align="absmiddle" alt="" /> Data & Delivery</h4>
-      Relational data modeling with MySQL and PostgreSQL, shipped with Docker and Git-based workflows.
+      <h4><img src="assets/icons/database.svg" width="18" height="18" align="absmiddle" alt="" /> Data &amp; Workflow</h4>
+      Relational data modeling with <b>MySQL</b> and <b>PostgreSQL</b> via <b>Prisma</b>. Packaged with <b>Docker Compose</b> and managed through disciplined Git workflows.
     </td>
   </tr>
 </table>
 
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+<a id="architecture"></a>
+
+## <img src="assets/icons/layers.svg" width="22" height="22" align="absmiddle" alt="" /> What I Work On
+
+My development focus centers on systems that solve concrete operational problems:
+
 <p align="center">
-  <b>少しずつでも、前に進む。</b><br />
-  <sub><i>Even little by little, keep moving forward.</i></sub>
+  <img src="assets/notebook-sketch.svg" alt="Technical Notebook // System Architecture &amp; Workflows" width="100%" />
 </p>
+
+- **Business Applications &amp; ERP Systems**: Translating inventory movements, multi-branch operations, sales pipelines, and transactional ledgers into predictable relational workflows.
+- **Universal Portal Foundations**: Building modular full-stack monorepos for client, vendor, and student portals with role-based access control and isolated services.
+- **CMS-Driven High-Speed Websites**: Pairing Next.js with headless CMS backends (Sanity) using Incremental Static Regeneration (ISR) to give non-technical teams full content autonomy without code redeployment.
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <a id="tech-stack"></a>
 
-## <img src="assets/icons/wrench.svg" width="26" height="26" align="absmiddle" alt="" /> Tech Stack
+## <img src="assets/icons/wrench.svg" width="22" height="22" align="absmiddle" alt="" /> Tech Stack
 
 <p align="center">
-  <img src="assets/marquee.svg" alt="Tech stack" width="100%" />
+  <img src="assets/marquee.svg" alt="Tech Stack" width="100%" />
 </p>
 
-| Area | Technologies |
+| Category | Technologies &amp; Tools |
 | :-- | :-- |
-| **Frontend** | JavaScript, React, Next.js, HTML, CSS |
-| **Backend** | PHP, Laravel, Node.js, NestJS, Python |
-| **Database** | MySQL, PostgreSQL |
-| **Tools & Workflow** | Git, GitHub, Docker, VS Code, Jira |
+| **Languages** | PHP, JavaScript (ES6+), TypeScript, Python, C++ |
+| **Frontend** | Next.js, React, HTML5, CSS3, Tailwind CSS, Blade |
+| **Backend** | Laravel, NestJS, Node.js, RESTful APIs |
+| **Database &amp; ORM** | MySQL, PostgreSQL, Prisma ORM, SQLite |
+| **Workflow &amp; DevOps** | Docker, Docker Compose, Git, GitHub, GitHub Actions, VS Code |
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<a id="how-i-build"></a>
+<a id="selected-projects"></a>
 
-## <img src="assets/icons/layers.svg" width="26" height="26" align="absmiddle" alt="" /> How I Build
+## <img src="assets/icons/code.svg" width="22" height="22" align="absmiddle" alt="" /> Selected Projects
 
-| Step | Focus |
-| :--: | :-- |
-| **01** | **Understand the problem** before jumping into implementation |
-| **02** | **Design clear workflows** that make sense for the people using them |
-| **03** | **Connect the pieces** between interface, logic, and data |
-| **04** | **Keep it maintainable** as requirements evolve |
-| **05** | **Build with purpose**, not complexity for its own sake |
+A selection of systems I have contributed to, architected, or developed:
+
+### 1. InteraERP — Enterprise Operations System
+> **Context:** ERP development for PT Next Generation Solutions  
+> **Technologies:** `Laravel` · `PHP` · `MySQL` · `RESTful API`
+
+- **Problem:** Growing businesses struggled with disconnected spreadsheets for sales tracking, customer relationship histories, and inventory stock balances.
+- **Solution &amp; Contribution:** Implemented backend modules for Sales &amp; CRM, designed normalized MySQL database schemas, and built transactional validation workflows that prevent stock ledger discrepancies.
+
+---
+
+### 2. Universal Portal Engine
+> **Context:** Monorepo portal foundation for enterprise clients  
+> **Technologies:** `Next.js` · `NestJS` · `TypeScript` · `PostgreSQL` · `Prisma` · `Docker Compose`
+
+- **Problem:** Re-implementing authentication, role-based authorization, document management, and client dashboards from scratch across multiple client projects caused wasted cycles.
+- **Solution &amp; Contribution:** Developed a reusable monorepo foundation pairing a Next.js (React 19) frontend with a modular NestJS API, PostgreSQL data layer via Prisma, and isolated local services orchestrated via Docker Compose.
+
+---
+
+### 3. TMT Corporate Landing &amp; Insights Engine
+> **Context:** Corporate digital presence for Trisya Media Teknologi  
+> **Technologies:** `Next.js` · `Sanity CMS` · `Tailwind CSS` · `TypeScript`
+
+- **Problem:** Marketing and operations teams needed to publish case studies and corporate updates dynamically without modifying layout code or triggering manual deployments.
+- **Solution &amp; Contribution:** Integrated headless Sanity CMS with Next.js, configuring structured schema definitions and Incremental Static Regeneration (ISR) to deliver instant page loads with real-time editorial updates.
+
+---
+
+### 4. Retail Operations System (PoC)
+> **Context:** Multi-location retail &amp; rental management prototype  
+> **Technologies:** `Laravel 11` · `PHP` · `Blade` · `Tailwind CSS` · `SQLite/MySQL`
+
+- **Problem:** Retailers handling both point-of-sale sales and item rentals experienced frequent inventory mismatch between store branches and warehouses.
+- **Solution &amp; Contribution:** Built a point-of-sale interface with atomic stock deduction, a 6-stage rental lifecycle engine (`Reserved` → `Prepared` → `Picked Up` → `Returned` → `Inspected`), and a unified real-time financial metrics dashboard.
+
+---
+
+### 5. Digital Daily Reflection
+> **Context:** Character mentorship platform for SMP Al Islam 1 Surakarta  
+> **Technologies:** `Next.js` · `React` · `Tailwind CSS` · `Local Storage State`
+
+- **Problem:** Rigid Google Forms created friction for students and generated disconnected spreadsheet rows that counseling teachers found difficult to review systematically.
+- **Solution &amp; Contribution:** Built a guided multi-step journaling experience for students and an administrative overview dashboard for teachers with submission filtering and individual student reflection histories.
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+<a id="approach"></a>
+
+## <img src="assets/icons/compass.svg" width="22" height="22" align="absmiddle" alt="" /> Engineering Approach
+
+| Step | Principle | Focus |
+| :--: | :-- | :-- |
+| **01** | **Understand the problem** | Map business rules, edge cases, and human constraints before writing code |
+| **02** | **Design clear workflows** | Break complex operational processes into predictable, transparent steps |
+| **03** | **Model data for integrity** | Ensure relational consistency, clear boundaries, and atomic transactional updates |
+| **04** | **Keep it maintainable** | Write readable, self-documenting code that remains clear months later |
+| **05** | **Build with purpose** | Deliver real utility without premature abstraction or unnecessary complexity |
 
 <a id="currently"></a>
 
-## <img src="assets/icons/sprout.svg" width="26" height="26" align="absmiddle" alt="" /> Currently
+## <img src="assets/icons/sprout.svg" width="22" height="22" align="absmiddle" alt="" /> Currently
 
 <table>
   <tr>
-    <td><img src="assets/icons/code.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Building</b><br /><sub>Real-world web apps with Next.js, NestJS, and Laravel</sub></td>
-    <td><img src="assets/icons/compass.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Exploring</b><br /><sub>System design and maintainable architecture</sub></td>
+    <td width="50%"><img src="assets/icons/code.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Building</b><br /><sub>Practical web applications with Next.js, NestJS, and Laravel</sub></td>
+    <td width="50%"><img src="assets/icons/compass.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Exploring</b><br /><sub>System architecture patterns, monorepos, and clean boundaries</sub></td>
   </tr>
   <tr>
-    <td><img src="assets/icons/flask.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Experimenting</b><br /><sub>Data, AI, and automation</sub></td>
-    <td><img src="assets/icons/book.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Learning</b><br /><sub>Japanese, little by little</sub></td>
+    <td width="50%"><img src="assets/icons/flask.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Experimenting</b><br /><sub>Document automation, data parsing, and developer tooling</sub></td>
+    <td width="50%"><img src="assets/icons/book.svg" width="18" height="18" align="absmiddle" alt="" /> <b>Learning</b><br /><sub>Japanese language studies, little by little (少しずつでも、前に進む)</sub></td>
   </tr>
 </table>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<a id="github-activity"></a>
+<a id="activity"></a>
 
-## <img src="assets/icons/chart.svg" width="26" height="26" align="absmiddle" alt="" /> GitHub Activity
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&bg_color=EFEADC&title_color=1B1B1B&icon_color=139A53&text_color=1B1B1B&border_color=1B1B1B&border_radius=4&v=2" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&bg_color=EFEADC&title_color=1B1B1B&text_color=1B1B1B&border_color=1B1B1B&border_radius=4&v=2" alt="top languages" />
-</p>
+## <img src="assets/icons/chart.svg" width="22" height="22" align="absmiddle" alt="" /> GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nurul-fauziah&background=EFEADC&ring=139A53&fire=139A53&currStreakLabel=1B1B1B&sideLabels=1B1B1B&currStreakNum=1B1B1B&sideNums=1B1B1B&dates=6E6A60&stroke=1B1B1B&border=1B1B1B&border_radius=4" alt="streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nurul-fauziah&show_icons=true&bg_color=EFEADC&title_color=1B1B1B&icon_color=139A53&text_color=1B1B1B&border_color=1B1B1B&border_radius=4&v=2" alt="GitHub Stats" />
+  &nbsp;
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurul-fauziah&layout=compact&bg_color=EFEADC&title_color=1B1B1B&text_color=1B1B1B&border_color=1B1B1B&border_radius=4&v=2" alt="Top Languages" />
 </p>
 
-<!-- Snake: butuh workflow .github/workflows/snake.yml -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/nurul-fauziah/nurul-fauziah/output/github-snake.svg" />
   </picture>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<a id="lets-connect"></a>
+<a id="connect"></a>
 
-## <img src="assets/icons/mail.svg" width="26" height="26" align="absmiddle" alt="" /> Let's Connect
+## <img src="assets/icons/mail.svg" width="22" height="22" align="absmiddle" alt="" /> Let's Connect
 
-I'm always open to discussing projects, collaboration, or opportunities to learn and grow as a developer.
+I am always open to discussing software engineering, practical web systems, collaboration, or development opportunities.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-connect.svg" height="52" alt="Connect on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-connect.svg" height="48" alt="Connect on LinkedIn" /></a>
 </p>
 
 <p align="center">

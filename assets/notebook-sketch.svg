@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Technical Notebook // System Architecture &amp; Engineering Workflows">
+  <defs>
+    <filter id="grain-nb" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="19"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="nb-clip"><rect width="1000" height="420" rx="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#nb-clip)">
+    <!-- Notebook Paper Surface -->
+    <rect width="1000" height="420" fill="#EFEADC"/>
+    <rect width="1000" height="420" filter="url(#grain-nb)" opacity=".06"/>
+
+    <!-- Subtle technical grid lines -->
+    <g stroke="#E4DECB" stroke-width="1" opacity=".7">
+      <line x1="40" y1="60" x2="960" y2="60"/>
+      <line x1="40" y1="120" x2="960" y2="120"/>
+      <line x1="40" y1="180" x2="960" y2="180"/>
+      <line x1="40" y1="240" x2="960" y2="240"/>
+      <line x1="40" y1="300" x2="960" y2="300"/>
+      <line x1="40" y1="360" x2="960" y2="360"/>
+      
+      <line x1="333" y1="60" x2="333" y2="360" stroke-dasharray="3 3"/>
+      <line x1="666" y1="60" x2="666" y2="360" stroke-dasharray="3 3"/>
+    </g>
+
+    <!-- Top Margin Header: Notebook Tab & Editorial Title -->
+    <g transform="translate(45, 34)">
+      <!-- Tab tag -->
+      <path d="M0,-8 L160,-8 L172,16 L0,16 Z" fill="#E4DECB" stroke="#1B1B1B" stroke-width="1.6"/>
+      <text x="12" y="8" font-family="'Courier Prime', Consolas, monospace" font-size="11" font-weight="700" fill="#1B1B1B" letter-spacing="1">FIELD NOTES // 01</text>
+      <!-- Section Title -->
+      <text x="190" y="8" font-family="'Courier Prime', Consolas, monospace" font-size="13" font-weight="700" fill="#1B1B1B" letter-spacing="1.2">SYSTEM ARCHITECTURE &amp; WORKFLOW APPROACH</text>
+      <!-- Japanese notation -->
+      <text x="890" y="8" text-anchor="end" font-family="'Yu Mincho', serif" font-size="12" fill="#6E6A60">開発設計ノート</text>
+    </g>
+
+    <line x1="40" y1="48" x2="960" y2="48" stroke="#1B1B1B" stroke-width="1.6"/>
+    <line x1="40" y1="51" x2="960" y2="51" stroke="#9A9585" stroke-width=".8" opacity=".6"/>
+
+    <!-- ==================== COLUMN 1: DOMAIN & BUSINESS LOGIC ==================== -->
+    <g transform="translate(50, 75)">
+      <!-- Card outline with slight sketch angle -->
+      <path d="M0,0 Q140,-2 280,0 Q282,130 280,260 Q140,262 0,260 Q-2,130 0,0 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M3,3 Q140,1 277,3 Q279,130 277,257 Q140,259 3,257" fill="none" stroke="#9A9585" stroke-width=".8" opacity=".5"/>
+
+      <!-- Number badge -->
+      <rect x="14" y="14" width="30" height="20" fill="#139A53" rx="2"/>
+      <text x="29" y="28" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#EFEADC">01</text>
+      <text x="52" y="28" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1B1B1B">DOMAIN &amp; LOGIC</text>
+
+      <!-- Subtitle -->
+      <text x="16" y="50" font-family="'Courier Prime', monospace" font-size="10.5" fill="#6E6A60">ERP &amp; Transactional Workflows</text>
+      <line x1="16" y1="58" x2="264" y2="58" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2"/>
+
+      <!-- Sketch Diagram: Entity Relationship / State Machine -->
+      <g transform="translate(16, 72)" stroke="#1B1B1B" stroke-width="1.4" fill="none">
+        <!-- Node A: Sales / Order -->
+        <rect x="0" y="0" width="70" height="32" rx="3" fill="#EFEADC"/>
+        <text x="35" y="16" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9.5" font-weight="700" fill="#1B1B1B" stroke="none">Order / POS</text>
+        <text x="35" y="26" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="8" fill="#6E6A60" stroke="none">state: valid</text>
+
+        <!-- Connector Arrow with green dot -->
+        <path d="M70,16 L108,16" stroke-linecap="round"/>
+        <polygon points="108,16 102,13 102,19" fill="#1B1B1B" stroke="none"/>
+        <circle cx="89" cy="16" r="3" fill="#139A53" stroke="none"/>
+
+        <!-- Node B: Stock / Ledger -->
+        <rect x="110" y="0" width="80" height="32" rx="3" fill="#EFEADC"/>
+        <text x="150" y="16" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9.5" font-weight="700" fill="#1B1B1B" stroke="none">Stock Ledger</text>
+        <text x="150" y="26" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="8" fill="#139A53" stroke="none">atomic deduct</text>
+
+        <!-- Branch to Finance / Rental -->
+        <path d="M150,32 V62 L180,62" stroke-linecap="round"/>
+        <polygon points="180,62 174,59 174,65" fill="#1B1B1B" stroke="none"/>
+        <rect x="182" y="46" width="76" height="30" rx="3" fill="#E4DECB"/>
+        <text x="220" y="60" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9" font-weight="700" fill="#1B1B1B" stroke="none">Audit &amp; Report</text>
+        <text x="220" y="70" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" fill="#6E6A60" stroke="none">real-time KPI</text>
+      </g>
+
+      <!-- Handwritten-style bullet annotations -->
+      <g transform="translate(16, 172)" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#1B1B1B">
+        <text y="0">• <tspan font-weight="600">Model real-world constraints</tspan> first</text>
+        <text y="18">• Relational integrity (MySQL / Postgres)</text>
+        <text y="36">• Multi-branch stock &amp; rental state machines</text>
+        <text y="54">• Framework: <tspan font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#139A53">Laravel · PHP</tspan></text>
+      </g>
+
+      <!-- Little hand-drawn tape detail on top -->
+      <path d="M100,-8 L160,-8 L158,4 L98,4 Z" fill="#D8D2C0" opacity=".7"/>
+    </g>
+
+    <!-- ==================== COLUMN 2: FULL STACK PORTALS & MONOREPO ==================== -->
+    <g transform="translate(360, 75)">
+      <!-- Card outline -->
+      <path d="M0,0 Q140,2 280,0 Q282,130 280,260 Q140,258 0,260 Q-2,130 0,0 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M3,3 Q140,5 277,3 Q279,130 277,257 Q140,255 3,257" fill="none" stroke="#9A9585" stroke-width=".8" opacity=".5"/>
+
+      <!-- Number badge -->
+      <rect x="14" y="14" width="30" height="20" fill="#1B1B1B" rx="2"/>
+      <text x="29" y="28" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#EFEADC">02</text>
+      <text x="52" y="28" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1B1B1B">PORTAL ENGINES</text>
+
+      <!-- Subtitle -->
+      <text x="16" y="50" font-family="'Courier Prime', monospace" font-size="10.5" fill="#6E6A60">Modular Full Stack Monorepos</text>
+      <line x1="16" y1="58" x2="264" y2="58" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2"/>
+
+      <!-- Sketch Diagram: Client / NestJS / Prisma / DB -->
+      <g transform="translate(16, 72)" stroke="#1B1B1B" stroke-width="1.4" fill="none">
+        <!-- Client box -->
+        <rect x="0" y="0" width="76" height="42" rx="3" fill="#EFEADC"/>
+        <text x="38" y="17" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9" font-weight="700" fill="#1B1B1B" stroke="none">Next.js UI</text>
+        <text x="38" y="29" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" fill="#6E6A60" stroke="none">React 19 · TS</text>
+        <text x="38" y="38" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7" fill="#139A53" stroke="none">Tailwind / UI</text>
+
+        <!-- Bi-directional API link -->
+        <path d="M76,21 H106" stroke-linecap="round"/>
+        <polygon points="106,21 100,18 100,24" fill="#1B1B1B" stroke="none"/>
+        <polygon points="76,21 82,18 82,24" fill="#1B1B1B" stroke="none"/>
+        <text x="91" y="14" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7" fill="#6E6A60" stroke="none">REST/JWT</text>
+
+        <!-- NestJS Backend -->
+        <rect x="108" y="0" width="76" height="42" rx="3" fill="#EFEADC"/>
+        <text x="146" y="17" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="9" font-weight="700" fill="#1B1B1B" stroke="none">NestJS API</text>
+        <text x="146" y="29" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" fill="#6E6A60" stroke="none">Auth &amp; Guards</text>
+        <text x="146" y="38" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7" fill="#139A53" stroke="none">Prisma ORM</text>
+
+        <!-- Down to Database -->
+        <path d="M146,42 V60 H210 V44" stroke-linecap="round"/>
+        <polygon points="210,44 207,50 213,50" fill="#1B1B1B" stroke="none"/>
+        <ellipse cx="210" cy="20" rx="20" ry="10" fill="#E4DECB"/>
+        <path d="M190,20 V34 A20,10 0 0 0 230,34 V20"/>
+        <text x="210" y="23" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" font-weight="700" fill="#1B1B1B" stroke="none">Postgres</text>
+      </g>
+
+      <!-- Handwritten-style bullet annotations -->
+      <g transform="translate(16, 172)" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#1B1B1B">
+        <text y="0">• Reusable portal core (client/vendor/student)</text>
+        <text y="18">• Role-based access control &amp; secure session</text>
+        <text y="36">• Docker Compose for predictable environments</text>
+        <text y="54">• Stack: <tspan font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#139A53">Next.js · NestJS · Prisma</tspan></text>
+      </g>
+
+      <!-- Tape detail -->
+      <path d="M110,-8 L170,-8 L168,4 L108,4 Z" fill="#D8D2C0" opacity=".7"/>
+    </g>
+
+    <!-- ==================== COLUMN 3: CMS & SYSTEM DELIVERY ==================== -->
+    <g transform="translate(670, 75)">
+      <!-- Card outline -->
+      <path d="M0,0 Q140,-1 280,0 Q281,130 280,260 Q140,261 0,260 Q-1,130 0,0 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M3,3 Q140,2 277,3 Q278,130 277,257 Q140,258 3,257" fill="none" stroke="#9A9585" stroke-width=".8" opacity=".5"/>
+
+      <!-- Number badge -->
+      <rect x="14" y="14" width="30" height="20" fill="#6E6A60" rx="2"/>
+      <text x="29" y="28" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#EFEADC">03</text>
+      <text x="52" y="28" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1B1B1B">CMS &amp; DELIVERY</text>
+
+      <!-- Subtitle -->
+      <text x="16" y="50" font-family="'Courier Prime', monospace" font-size="10.5" fill="#6E6A60">Content &amp; High-Speed Web</text>
+      <line x1="16" y1="58" x2="264" y2="58" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2"/>
+
+      <!-- Sketch Diagram: Sanity CMS -> ISR Pipeline -> User -->
+      <g transform="translate(16, 72)" stroke="#1B1B1B" stroke-width="1.4" fill="none">
+        <!-- Sanity CMS -->
+        <rect x="0" y="6" width="70" height="36" rx="3" fill="#EFEADC"/>
+        <text x="35" y="22" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="8.5" font-weight="700" fill="#1B1B1B" stroke="none">Sanity CMS</text>
+        <text x="35" y="33" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" fill="#6E6A60" stroke="none">Structured</text>
+
+        <!-- Webhook arrow -->
+        <path d="M70,24 H105" stroke-linecap="round"/>
+        <polygon points="105,24 99,21 99,27" fill="#1B1B1B" stroke="none"/>
+        <text x="87" y="18" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7" fill="#139A53" stroke="none">Webhook</text>
+
+        <!-- Next.js ISR Engine -->
+        <rect x="107" y="6" width="76" height="36" rx="3" fill="#EFEADC"/>
+        <text x="145" y="22" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="8.5" font-weight="700" fill="#1B1B1B" stroke="none">Next.js ISR</text>
+        <text x="145" y="33" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7.5" fill="#139A53" stroke="none">Static + Cache</text>
+
+        <!-- Fast Client Delivery -->
+        <path d="M183,24 H216" stroke-linecap="round"/>
+        <polygon points="216,24 210,21 210,27" fill="#1B1B1B" stroke="none"/>
+        <!-- Small browser sketch -->
+        <rect x="218" y="2" width="40" height="42" rx="2" fill="#E4DECB"/>
+        <line x1="218" y1="10" x2="258" y2="10" stroke="#1B1B1B" stroke-width="1"/>
+        <circle cx="223" cy="6" r="1.5" fill="#1B1B1B"/>
+        <circle cx="228" cy="6" r="1.5" fill="#1B1B1B"/>
+        <text x="238" y="26" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="8" font-weight="700" fill="#1B1B1B" stroke="none">Client</text>
+        <text x="238" y="37" text-anchor="middle" font-family="'Courier Prime', monospace" font-size="7" fill="#139A53" stroke="none">Instant</text>
+      </g>
+
+      <!-- Handwritten-style bullet annotations -->
+      <g transform="translate(16, 172)" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#1B1B1B">
+        <text y="0">• Dynamic marketing copy without redeploy</text>
+        <text y="18">• Fixed page layout, controlled CMS fields</text>
+        <text y="36">• Incremental Static Regeneration (ISR)</text>
+        <text y="54">• Stack: <tspan font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#139A53">Next.js · Sanity · Tailwind</tspan></text>
+      </g>
+
+      <!-- Tape detail -->
+      <path d="M100,-8 L160,-8 L158,4 L98,4 Z" fill="#D8D2C0" opacity=".7"/>
+    </g>
+
+    <!-- Bottom handwritten annotation bar with arrow -->
+    <g transform="translate(60, 385)">
+      <!-- Pencil arrow pointer -->
+      <path d="M0,-8 C35,-2 85,-14 110,-4" fill="none" stroke="#139A53" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="110,-4 102,-8 105,-2" fill="#139A53" stroke="none"/>
+      <!-- Annotation note -->
+      <text x="125" y="-2" font-family="'Courier Prime', Consolas, monospace" font-size="12" font-weight="700" fill="#1B1B1B" letter-spacing=".5">CORE RULE: </text>
+      <text x="210" y="-2" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#6E6A60">"Understand the real workflow first. Keep logic maintainable, data predictable, and complexity purposeful."</text>
+      <!-- Asterisk sketch -->
+      <g transform="translate(900, -6)" stroke="#139A53" stroke-width="2" stroke-linecap="round">
+        <line x1="0" y1="-7" x2="0" y2="7"/>
+        <line x1="-6" y1="-4" x2="6" y2="4"/>
+        <line x1="-6" y1="4" x2="6" y2="-4"/>
+      </g>
+    </g>
+  </g>
+</svg>
