@@ -20,25 +20,20 @@
   <a href="#about">About</a> &nbsp;·&nbsp;
   <a href="#architecture">Architecture &amp; Focus</a> &nbsp;·&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#repositories">Repositories</a> &nbsp;·&nbsp;
   <a href="#approach">Approach</a> &nbsp;·&nbsp;
+  <a href="#currently">Currently</a> &nbsp;·&nbsp;
   <a href="#activity">Activity</a> &nbsp;·&nbsp;
   <a href="#connect">Contact</a>
 </p>
+
+<a id="about"></a>
+
+### <img src="assets/icons/user.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/user-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> About
 
 <p align="center">
   <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
   <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
 </p>
-
-<a id="about"></a>
-
-<p align="center">
-  <img src="assets/dividers/divider-user.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-user-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
-
-### About
 
 I'm a **Full Stack Developer** with a background in **Informatics Engineering**. I build web applications with a focus on practical utility: turning complex operational requirements into clear workflows, reliable backend logic, and responsive user interfaces.
 
@@ -51,12 +46,12 @@ I care about how systems behave under the hood — data consistency, transaction
 
 <a id="architecture"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-layers.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-layers-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/layers.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/layers-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> What I Work On
 
-### What I Work On
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 My development focus centers on systems that solve concrete operational problems:
 
@@ -70,12 +65,12 @@ My development focus centers on systems that solve concrete operational problems
 
 <a id="tech-stack"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-wrench.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-wrench-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/wrench.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/wrench-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Tech Stack
 
-### Tech Stack
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 <p align="center">
   <img src="assets/marquee.svg" alt="Tech Stack" width="100%" />
@@ -89,38 +84,14 @@ My development focus centers on systems that solve concrete operational problems
 | **Database &amp; ORM** | MySQL, PostgreSQL, Prisma ORM, SQLite |
 | **Workflow &amp; DevOps** | Docker, Docker Compose, Git, GitHub, GitHub Actions, VS Code |
 
-<a id="repositories"></a>
-
-<p align="center">
-  <img src="assets/dividers/divider-code.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-code-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
-
-### Public Repositories
-
-> 🌐 **Interactive Portfolio &amp; Case Studies**  
-> For full case studies, UI explorations, and live interactive builds, visit my portfolio:  
-> **👉 [nurulfauziah-portfolio.vercel.app ↗](https://nurulfauziah-portfolio.vercel.app/)**
-
-| Repository | Primary Stack | Focus &amp; Description |
-| :-- | :-- | :-- |
-| [**ai-calendar-assistant**](https://github.com/nurul-fauziah/ai-calendar-assistant) | `TypeScript` | AI-assisted calendar scheduler and time management workflows |
-| [**invoice-app**](https://github.com/nurul-fauziah/invoice-app) | `Blade` · `PHP` · `Laravel` | Business invoicing tool, item billing calculation, and PDF ledger generation |
-| [**e-commerce-project**](https://github.com/nurul-fauziah/e-commerce-project) | `PHP` · `MySQL` | Web-based retail store with product catalog, cart, and checkout flow |
-| [**japandi-portfolio-design**](https://github.com/nurul-fauziah/japandi-portfolio-design) | `TypeScript` · `Next.js` | Japandi aesthetic web portfolio design and editorial layout |
-| [**mid-century-portfolio-design**](https://github.com/nurul-fauziah/mid-century-portfolio-design) | `TypeScript` · `React` | Mid-century modern typography and component design system |
-| [**learning_journal**](https://github.com/nurul-fauziah/learning_journal) | `HTML` · `JavaScript` · `CSS` | Interactive web journal for tracking continuous engineering studies |
-| [**retro_study**](https://github.com/nurul-fauziah/retro_study) | `HTML` · `JavaScript` | Focused retro-styled study timer and productivity tool |
-| [**MachineLearningTask**](https://github.com/nurul-fauziah/MachineLearningTask) | `Jupyter Notebook` · `Python` | Data exploration, machine learning experiments, and statistical analysis |
-
 <a id="approach"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-compass.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-compass-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/compass.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/compass-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Engineering Approach
 
-### Engineering Approach
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 | Step | Principle | Focus |
 | :--: | :-- | :-- |
@@ -132,12 +103,12 @@ My development focus centers on systems that solve concrete operational problems
 
 <a id="currently"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-sprout.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-sprout-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/sprout.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/sprout-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Currently
 
-### Currently
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 <p align="center">
   <img src="assets/currently-grid.svg#gh-light-mode-only" width="100%" alt="Currently Building, Exploring, Experimenting, and Learning" />
@@ -146,12 +117,12 @@ My development focus centers on systems that solve concrete operational problems
 
 <a id="activity"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-chart.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-chart-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/chart.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/chart-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> GitHub Activity
 
-### GitHub Activity
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 <p align="center">
   <img src="assets/github-stats.svg" alt="GitHub Activity &amp; Language Distribution" width="840" />
@@ -167,12 +138,12 @@ My development focus centers on systems that solve concrete operational problems
 
 <a id="connect"></a>
 
-<p align="center">
-  <img src="assets/dividers/divider-mail.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/dividers/divider-mail-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
+### <img src="assets/icons/mail.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/mail-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Let's Connect
 
-### Let's Connect
+<p align="center">
+  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
+  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
+</p>
 
 I am always open to discussing software engineering, practical web systems, collaboration, or development opportunities.
 
