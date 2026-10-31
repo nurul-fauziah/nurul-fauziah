@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="185" viewBox="0 0 840 185" role="img" aria-label="GitHub Activity &amp; Language Distribution">
+  <defs>
+    <filter id="grain-st" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="14"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="st-clip"><rect width="840" height="185" rx="8"/></clipPath>
+  </defs>
+
+  <!-- Background Card -->
+  <g clip-path="url(#st-clip)">
+    <!-- Warm Paper Surface -->
+    <rect width="840" height="185" fill="#EFEADC"/>
+    <rect width="840" height="185" filter="url(#grain-st)" opacity=".05"/>
+
+    <!-- Outer Hand-drawn Sketch Border -->
+    <path d="M4,4 Q420,2 836,4 Q838,92 836,181 Q420,183 4,181 Q2,92 4,4 Z" fill="none" stroke="#1B1B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7,7 Q420,5.5 833,7 Q834.5,92 833,178 Q420,179.5 7,178" fill="none" stroke="#9A9585" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+
+    <!-- Vertical Sketch Divider between Panels -->
+    <path d="M410,12 Q409,92 411,173" stroke="#1B1B1B" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <circle cx="410" cy="92" r="3" fill="#139A53"/>
+
+    <!-- ==================== LEFT PANEL: GITHUB ACTIVITY ==================== -->
+    <g transform="translate(24, 18)">
+      <!-- Panel Header -->
+      <g stroke="#1B1B1B" stroke-width="1.6" fill="none" stroke-linecap="round">
+        <circle cx="10" cy="10" r="8"/>
+        <path d="M6,10 L9,13 L15,7"/>
+      </g>
+      <text x="26" y="14" font-family="'Courier Prime', Consolas, monospace" font-size="12" font-weight="700" fill="#1B1B1B" letter-spacing=".8">GITHUB PROFILE &amp; REPOSITORIES</text>
+      <text x="26" y="27" font-family="'Segoe UI', sans-serif" font-size="10.5" fill="#6E6A60">user: @nurul-fauziah · active builder</text>
+
+      <!-- Stat items in sketch rows -->
+      <g transform="translate(6, 42)">
+        <!-- Stat Row 1 -->
+        <rect x="0" y="0" width="170" height="42" rx="3" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#1B1B1B">14</text>
+        <text x="46" y="18" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#6E6A60">PUBLIC REPOS</text>
+        <text x="46" y="30" font-family="'Courier Prime', monospace" font-size="9" fill="#139A53">web apps · systems</text>
+
+        <!-- Stat Row 2 -->
+        <rect x="182" y="0" width="180" height="42" rx="3" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.2"/>
+        <circle cx="198" cy="21" r="5" fill="#139A53"/>
+        <circle cx="198" cy="21" r="9" fill="none" stroke="#139A53" stroke-width="1.2" opacity=".4"/>
+        <text x="214" y="18" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#6E6A60">CURRENT STATUS</text>
+        <text x="214" y="30" font-family="'Courier Prime', monospace" font-size="10" font-weight="700" fill="#1B1B1B">Open to Collaborate</text>
+
+        <!-- Stat Row 3: Annotation note -->
+        <g transform="translate(2, 56)">
+          <path d="M4,10 Q60,18 120,12" stroke="#139A53" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+          <text x="4" y="24" font-family="'Segoe UI', sans-serif" font-size="11" fill="#1B1B1B">Primary focus: <tspan font-weight="600">Full Stack Systems, ERP, &amp; Business Web Apps</tspan></text>
+          <text x="4" y="38" font-family="'Courier Prime', monospace" font-size="9.5" fill="#6E6A60">Continuous learning: Next.js · Laravel · NestJS · Docker</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ==================== RIGHT PANEL: LANGUAGE DISTRIBUTION ==================== -->
+    <g transform="translate(434, 18)">
+      <!-- Panel Header -->
+      <g stroke="#139A53" stroke-width="1.6" fill="none" stroke-linecap="round">
+        <polygon points="10,2 18,18 2,18"/>
+      </g>
+      <text x="26" y="14" font-family="'Courier Prime', Consolas, monospace" font-size="12" font-weight="700" fill="#1B1B1B" letter-spacing=".8">TOP LANGUAGES &amp; STACK BREAKDOWN</text>
+      <text x="26" y="27" font-family="'Segoe UI', sans-serif" font-size="10.5" fill="#6E6A60">measured across active codebase repositories</text>
+
+      <!-- Language Bars with Sketch fills -->
+      <g transform="translate(6, 42)">
+        <!-- Language 1: TypeScript / JavaScript -->
+        <g transform="translate(0, 0)">
+          <text x="0" y="11" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#1B1B1B">TypeScript / JS</text>
+          <text x="130" y="11" font-family="'Courier Prime', monospace" font-size="10.5" font-weight="700" fill="#139A53">45.2%</text>
+          <!-- Bar container -->
+          <rect x="180" y="2" width="180" height="11" rx="2" fill="#E4DECB" stroke="#1B1B1B" stroke-width="1"/>
+          <rect x="180" y="2" width="81" height="11" rx="2" fill="#139A53"/>
+        </g>
+
+        <!-- Language 2: PHP / Laravel -->
+        <g transform="translate(0, 22)">
+          <text x="0" y="11" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#1B1B1B">PHP (Laravel)</text>
+          <text x="130" y="11" font-family="'Courier Prime', monospace" font-size="10.5" font-weight="700" fill="#139A53">34.8%</text>
+          <rect x="180" y="2" width="180" height="11" rx="2" fill="#E4DECB" stroke="#1B1B1B" stroke-width="1"/>
+          <rect x="180" y="2" width="63" height="11" rx="2" fill="#1B1B1B"/>
+        </g>
+
+        <!-- Language 3: Python -->
+        <g transform="translate(0, 44)">
+          <text x="0" y="11" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#1B1B1B">Python</text>
+          <text x="130" y="11" font-family="'Courier Prime', monospace" font-size="10.5" font-weight="700" fill="#139A53">12.0%</text>
+          <rect x="180" y="2" width="180" height="11" rx="2" fill="#E4DECB" stroke="#1B1B1B" stroke-width="1"/>
+          <rect x="180" y="2" width="22" height="11" rx="2" fill="#6E6A60"/>
+        </g>
+
+        <!-- Language 4: HTML / CSS / Other -->
+        <g transform="translate(0, 66)">
+          <text x="0" y="11" font-family="'Courier Prime', monospace" font-size="11" font-weight="700" fill="#1B1B1B">HTML / CSS / SQL</text>
+          <text x="130" y="11" font-family="'Courier Prime', monospace" font-size="10.5" font-weight="700" fill="#139A53">8.0%</text>
+          <rect x="180" y="2" width="180" height="11" rx="2" fill="#E4DECB" stroke="#1B1B1B" stroke-width="1"/>
+          <rect x="180" y="2" width="14" height="11" rx="2" fill="#9A9585"/>
+        </g>
+
+        <!-- Little annotation with arrow -->
+        <g transform="translate(0, 92)">
+          <text x="0" y="8" font-family="'Yu Mincho', serif" font-size="10" fill="#6E6A60">少しずつでも、前に進む。</text>
+          <text x="150" y="8" font-family="'Courier Prime', monospace" font-size="9" fill="#9A9585">· self-hosted &amp; 100% reliable</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
