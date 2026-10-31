@@ -7,6 +7,8 @@
 </p>
 
 <p align="center">
+  <a href="https://nurulfauziah-portfolio.vercel.app/"><img src="assets/btn-portfolio.svg" height="38" alt="Live Portfolio" /></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-linkedin.svg" height="38" alt="LinkedIn" /></a>
   &nbsp;
   <a href="https://github.com/nurul-fauziah"><img src="assets/btn-github.svg" height="38" alt="GitHub" /></a>
@@ -18,7 +20,7 @@
   <a href="#about">About</a> &nbsp;·&nbsp;
   <a href="#architecture">Architecture &amp; Focus</a> &nbsp;·&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#selected-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#repositories">Repositories</a> &nbsp;·&nbsp;
   <a href="#approach">Approach</a> &nbsp;·&nbsp;
   <a href="#activity">Activity</a> &nbsp;·&nbsp;
   <a href="#connect">Contact</a>
@@ -99,54 +101,24 @@ My development focus centers on systems that solve concrete operational problems
   <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
 </p>
 
-<a id="selected-projects"></a>
+<a id="repositories"></a>
 
-## <img src="assets/icons/code.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/code-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Selected Projects
+## <img src="assets/icons/code.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/code-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> Public Repositories
 
-A selection of systems I have contributed to, architected, or developed:
+> 🌐 **Interactive Portfolio &amp; Case Studies**  
+> For full case studies, UI explorations, and live interactive builds, visit my portfolio:  
+> **👉 [nurulfauziah-portfolio.vercel.app ↗](https://nurulfauziah-portfolio.vercel.app/)**
 
-### 1. InteraERP — Enterprise Operations System
-> **Context:** ERP development for PT Next Generation Solutions  
-> **Technologies:** `Laravel` · `PHP` · `MySQL` · `RESTful API`
-
-- **Problem:** Growing businesses struggled with disconnected spreadsheets for sales tracking, customer relationship histories, and inventory stock balances.
-- **Solution &amp; Contribution:** Implemented backend modules for Sales &amp; CRM, designed normalized MySQL database schemas, and built transactional validation workflows that prevent stock ledger discrepancies.
-
----
-
-### 2. Universal Portal Engine
-> **Context:** Monorepo portal foundation for enterprise clients  
-> **Technologies:** `Next.js` · `NestJS` · `TypeScript` · `PostgreSQL` · `Prisma` · `Docker Compose`
-
-- **Problem:** Re-implementing authentication, role-based authorization, document management, and client dashboards from scratch across multiple client projects caused wasted cycles.
-- **Solution &amp; Contribution:** Developed a reusable monorepo foundation pairing a Next.js (React 19) frontend with a modular NestJS API, PostgreSQL data layer via Prisma, and isolated local services orchestrated via Docker Compose.
-
----
-
-### 3. TMT Corporate Landing &amp; Insights Engine
-> **Context:** Corporate digital presence for Trisya Media Teknologi  
-> **Technologies:** `Next.js` · `Sanity CMS` · `Tailwind CSS` · `TypeScript`
-
-- **Problem:** Marketing and operations teams needed to publish case studies and corporate updates dynamically without modifying layout code or triggering manual deployments.
-- **Solution &amp; Contribution:** Integrated headless Sanity CMS with Next.js, configuring structured schema definitions and Incremental Static Regeneration (ISR) to deliver instant page loads with real-time editorial updates.
-
----
-
-### 4. Retail Operations System (PoC)
-> **Context:** Multi-location retail &amp; rental management prototype  
-> **Technologies:** `Laravel 11` · `PHP` · `Blade` · `Tailwind CSS` · `SQLite/MySQL`
-
-- **Problem:** Retailers handling both point-of-sale sales and item rentals experienced frequent inventory mismatch between store branches and warehouses.
-- **Solution &amp; Contribution:** Built a point-of-sale interface with atomic stock deduction, a 6-stage rental lifecycle engine (`Reserved` → `Prepared` → `Picked Up` → `Returned` → `Inspected`), and a unified real-time financial metrics dashboard.
-
----
-
-### 5. Digital Daily Reflection
-> **Context:** Character mentorship platform for SMP Al Islam 1 Surakarta  
-> **Technologies:** `Next.js` · `React` · `Tailwind CSS` · `Local Storage State`
-
-- **Problem:** Rigid Google Forms created friction for students and generated disconnected spreadsheet rows that counseling teachers found difficult to review systematically.
-- **Solution &amp; Contribution:** Built a guided multi-step journaling experience for students and an administrative overview dashboard for teachers with submission filtering and individual student reflection histories.
+| Repository | Primary Stack | Focus &amp; Description |
+| :-- | :-- | :-- |
+| [**ai-calendar-assistant**](https://github.com/nurul-fauziah/ai-calendar-assistant) | `TypeScript` | AI-assisted calendar scheduler and time management workflows |
+| [**invoice-app**](https://github.com/nurul-fauziah/invoice-app) | `Blade` · `PHP` · `Laravel` | Business invoicing tool, item billing calculation, and PDF ledger generation |
+| [**e-commerce-project**](https://github.com/nurul-fauziah/e-commerce-project) | `PHP` · `MySQL` | Web-based retail store with product catalog, cart, and checkout flow |
+| [**japandi-portfolio-design**](https://github.com/nurul-fauziah/japandi-portfolio-design) | `TypeScript` · `Next.js` | Japandi aesthetic web portfolio design and editorial layout |
+| [**mid-century-portfolio-design**](https://github.com/nurul-fauziah/mid-century-portfolio-design) | `TypeScript` · `React` | Mid-century modern typography and component design system |
+| [**learning_journal**](https://github.com/nurul-fauziah/learning_journal) | `HTML` · `JavaScript` · `CSS` | Interactive web journal for tracking continuous engineering studies |
+| [**retro_study**](https://github.com/nurul-fauziah/retro_study) | `HTML` · `JavaScript` | Focused retro-styled study timer and productivity tool |
+| [**MachineLearningTask**](https://github.com/nurul-fauziah/MachineLearningTask) | `Jupyter Notebook` · `Python` | Data exploration, machine learning experiments, and statistical analysis |
 
 <p align="center">
   <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
@@ -213,7 +185,9 @@ A selection of systems I have contributed to, architected, or developed:
 I am always open to discussing software engineering, practical web systems, collaboration, or development opportunities.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-connect.svg" height="48" alt="Connect on LinkedIn" /></a>
+  <a href="https://nurulfauziah-portfolio.vercel.app/"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/nurul-fauziah/"><img src="assets/btn-connect.svg" height="44" alt="Connect on LinkedIn" /></a>
 </p>
 
 <p align="center">
