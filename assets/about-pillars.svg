@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="185" viewBox="0 0 900 185" role="img" aria-label="Frontend, Backend, and Data Pillars">
+  <defs>
+    <style>
+      .t-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 700; fill: #1B1B1B; }
+      .t-desc { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11.5px; fill: #4A463E; line-height: 1.5; }
+    </style>
+  </defs>
+  <!-- Pillar Column 1 -->
+  <g transform="translate(10, 8)">
+    <!-- Sketch Card Outline -->
+    <path d="M4,4 Q140,1 280,4 Q282,85 280,165 Q140,167 4,165 Q2,85 4,4 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7,7 Q140,4.5 277,7 Q279,85 277,162 Q140,164.5 7,162" fill="none" stroke="#9A9585" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+
+    <!-- Column Top Wavy Line with Icon in Center -->
+    <g transform="translate(6, 6)">
+      <!-- Left part wave -->
+      <path d="M4,14 Q35,10 70,14 Q100,16 112,12" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Right part wave -->
+      <path d="M156,12 Q175,16 205,11 Q235,9 264,13" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Center Icon Badge -->
+      <circle cx="134" cy="14" r="14" fill="#EFEADC" stroke="#1B1B1B" stroke-width="1.4"/>
+      <circle cx="134" cy="14" r="12" fill="none" stroke="#139A53" stroke-width=".9" stroke-dasharray="2 2"/>
+      <g transform="translate(126, 6) scale(0.666)" fill="none" stroke="#1B1B1B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/>
+      </g>
+    </g>
+
+    <!-- Column Title -->
+    <text x="140" y="52" text-anchor="middle" class="t-title">Frontend &amp; Interfaces</text>
+    <line x1="40" y1="60" x2="240" y2="60" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2" opacity=".6"/>
+
+    <!-- Column Description Lines -->
+    <text x="140" y="80" text-anchor="middle" class="t-desc">Responsive, accessible user interfaces built</text>
+    <text x="140" y="98" text-anchor="middle" class="t-desc">with Next.js and React. Structured around</text>
+    <text x="140" y="116" text-anchor="middle" class="t-desc">real human tasks, clear form states, and</text>
+    <text x="140" y="134" text-anchor="middle" class="t-desc">intuitive navigation flows.</text>
+
+    <!-- Bottom Mini Wave -->
+    <path d="M80,152 Q140,148 200,152" fill="none" stroke="#139A53" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <!-- Pillar Column 2 -->
+  <g transform="translate(306, 8)">
+    <!-- Sketch Card Outline -->
+    <path d="M4,4 Q140,1 280,4 Q282,85 280,165 Q140,167 4,165 Q2,85 4,4 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7,7 Q140,4.5 277,7 Q279,85 277,162 Q140,164.5 7,162" fill="none" stroke="#9A9585" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+
+    <!-- Column Top Wavy Line with Icon in Center -->
+    <g transform="translate(6, 6)">
+      <!-- Left part wave -->
+      <path d="M4,14 Q35,10 70,14 Q100,16 112,12" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Right part wave -->
+      <path d="M156,12 Q175,16 205,11 Q235,9 264,13" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Center Icon Badge -->
+      <circle cx="134" cy="14" r="14" fill="#EFEADC" stroke="#1B1B1B" stroke-width="1.4"/>
+      <circle cx="134" cy="14" r="12" fill="none" stroke="#139A53" stroke-width=".9" stroke-dasharray="2 2"/>
+      <g transform="translate(126, 6) scale(0.666)" fill="none" stroke="#1B1B1B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/>
+      </g>
+    </g>
+
+    <!-- Column Title -->
+    <text x="140" y="52" text-anchor="middle" class="t-title">Backend &amp; Logic</text>
+    <line x1="40" y1="60" x2="240" y2="60" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2" opacity=".6"/>
+
+    <!-- Column Description Lines -->
+    <text x="140" y="80" text-anchor="middle" class="t-desc">Clean RESTful APIs, authentication guards,</text>
+    <text x="140" y="98" text-anchor="middle" class="t-desc">and business logic using Laravel and</text>
+    <text x="140" y="116" text-anchor="middle" class="t-desc">NestJS. Designed to enforce domain</text>
+    <text x="140" y="134" text-anchor="middle" class="t-desc">constraints and scale cleanly.</text>
+
+    <!-- Bottom Mini Wave -->
+    <path d="M80,152 Q140,148 200,152" fill="none" stroke="#139A53" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <!-- Pillar Column 3 -->
+  <g transform="translate(602, 8)">
+    <!-- Sketch Card Outline -->
+    <path d="M4,4 Q140,1 280,4 Q282,85 280,165 Q140,167 4,165 Q2,85 4,4 Z" fill="#F4EBD9" stroke="#1B1B1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7,7 Q140,4.5 277,7 Q279,85 277,162 Q140,164.5 7,162" fill="none" stroke="#9A9585" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+
+    <!-- Column Top Wavy Line with Icon in Center -->
+    <g transform="translate(6, 6)">
+      <!-- Left part wave -->
+      <path d="M4,14 Q35,10 70,14 Q100,16 112,12" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Right part wave -->
+      <path d="M156,12 Q175,16 205,11 Q235,9 264,13" fill="none" stroke="#1B1B1B" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Center Icon Badge -->
+      <circle cx="134" cy="14" r="14" fill="#EFEADC" stroke="#1B1B1B" stroke-width="1.4"/>
+      <circle cx="134" cy="14" r="12" fill="none" stroke="#139A53" stroke-width=".9" stroke-dasharray="2 2"/>
+      <g transform="translate(126, 6) scale(0.666)" fill="none" stroke="#1B1B1B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/>
+      </g>
+    </g>
+
+    <!-- Column Title -->
+    <text x="140" y="52" text-anchor="middle" class="t-title">Data &amp; Workflow</text>
+    <line x1="40" y1="60" x2="240" y2="60" stroke="#1B1B1B" stroke-width="1" stroke-dasharray="2 2" opacity=".6"/>
+
+    <!-- Column Description Lines -->
+    <text x="140" y="80" text-anchor="middle" class="t-desc">Relational data modeling with MySQL and</text>
+    <text x="140" y="98" text-anchor="middle" class="t-desc">PostgreSQL via Prisma. Packaged with</text>
+    <text x="140" y="116" text-anchor="middle" class="t-desc">Docker Compose and managed through</text>
+    <text x="140" y="134" text-anchor="middle" class="t-desc">disciplined Git workflows.</text>
+
+    <!-- Bottom Mini Wave -->
+    <path d="M80,152 Q140,148 200,152" fill="none" stroke="#139A53" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+</svg>
