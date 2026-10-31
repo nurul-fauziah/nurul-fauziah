@@ -2,9 +2,25 @@
   <!-- Hand drawn dashed ticket outline -->
   <path d="M6,6 Q110,4.5 214,6 Q215.5,21 214,36 Q110,37.5 5,36 Q3.5,21 6,6 Z" fill="#EFEADC" stroke="#1B1B1B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M9,9 Q110,7.5 211,9 Q212.5,21 211,33 Q110,34.5 8,33 Q6.5,21 9,9 Z" fill="none" stroke="#9A9585" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
-  <!-- Status dot with pulse ring -->
-  <circle cx="24" cy="21" r="5" fill="#139A53"/>
-  <circle cx="24" cy="21" r="8" fill="none" stroke="#139A53" stroke-width="1.2" opacity=".4"/>
+  
+  <!-- Animated Status Beacon -->
+  <g transform="translate(24, 21)">
+    <!-- Expanding ripple ring -->
+    <circle cx="0" cy="0" r="4" fill="none" stroke="#139A53" stroke-width="1.6">
+      <animate attributeName="r" values="4;12" dur="2.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0.85;0" dur="2.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+    </circle>
+    <!-- Secondary soft ring -->
+    <circle cx="0" cy="0" r="4" fill="none" stroke="#139A53" stroke-width="1.2">
+      <animate attributeName="r" values="4;9" dur="2.2s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0.6;0" dur="2.2s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.8 0.2 1" keyTimes="0;1"/>
+    </circle>
+    <!-- Solid core dot with gentle pulse -->
+    <circle cx="0" cy="0" r="4.5" fill="#139A53">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
   <!-- Text -->
   <text x="40" y="25.5" font-family="'Courier Prime', Consolas, 'Courier New', monospace" font-size="12" font-weight="700" fill="#1B1B1B" letter-spacing="0.5">OPEN TO OPPORTUNITIES</text>
 </svg>

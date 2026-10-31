@@ -18,7 +18,6 @@
 
 <p align="center">
   <a href="#about">About</a> &nbsp;·&nbsp;
-  <a href="#architecture">Architecture &amp; Focus</a> &nbsp;·&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
   <a href="#approach">Approach</a> &nbsp;·&nbsp;
   <a href="#currently">Currently</a> &nbsp;·&nbsp;
@@ -43,25 +42,6 @@ I care about how systems behave under the hood — data consistency, transaction
   <img src="assets/about-pillars.svg#gh-light-mode-only" width="100%" alt="Frontend, Backend, and Data Pillars" />
   <img src="assets/about-pillars-dark.svg#gh-dark-mode-only" width="100%" alt="Frontend, Backend, and Data Pillars" />
 </p>
-
-<a id="architecture"></a>
-
-### <img src="assets/icons/layers.svg#gh-light-mode-only" width="22" height="22" align="absmiddle" alt="" /><img src="assets/icons/layers-dark.svg#gh-dark-mode-only" width="22" height="22" align="absmiddle" alt="" /> What I Work On
-
-<p align="center">
-  <img src="assets/divider.svg#gh-light-mode-only" width="100%" alt="" />
-  <img src="assets/divider-dark.svg#gh-dark-mode-only" width="100%" alt="" />
-</p>
-
-My development focus centers on systems that solve concrete operational problems:
-
-<p align="center">
-  <img src="assets/notebook-sketch.svg" alt="Technical Notebook // System Architecture &amp; Workflows" width="100%" />
-</p>
-
-- **Business Applications &amp; ERP Systems**: Translating inventory movements, multi-branch operations, sales pipelines, and transactional ledgers into predictable relational workflows.
-- **Universal Portal Foundations**: Building modular full-stack monorepos for client, vendor, and student portals with role-based access control and isolated services.
-- **CMS-Driven High-Speed Websites**: Pairing Next.js with headless CMS backends (Sanity) using Incremental Static Regeneration (ISR) to give non-technical teams full content autonomy without code redeployment.
 
 <a id="tech-stack"></a>
 
